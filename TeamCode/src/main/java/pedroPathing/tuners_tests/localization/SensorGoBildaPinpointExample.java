@@ -94,7 +94,7 @@ public class SensorGoBildaPinpointExample extends LinearOpMode {
         number of ticks per mm of your odometry pod.
          */
         odo.setEncoderResolution(GoBildaPinpointDriver.GoBildaOdometryPods.goBILDA_4_BAR_POD);
-        //odo.setEncoderResolution(13.26291192);
+        odo.setEncoderResolution(13.26291192);
 
 
         /*
